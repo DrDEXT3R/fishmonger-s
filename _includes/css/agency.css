@@ -902,6 +902,13 @@ section#map .text-bg, section#contact .text-bg {
     margin-bottom: 75px;
 }
 
+section#map .googlemaps {
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/contact-bg.jpg');
@@ -920,4 +927,8 @@ section#contact .opening-hours {
 section#contact .contact-info {
     margin: auto;
     background-color: #00FF00;
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+    border-radius: 5px;
 }
