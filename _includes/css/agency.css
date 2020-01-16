@@ -656,7 +656,7 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+/* section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
@@ -719,7 +719,7 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
+} */
 
 footer {
     padding: 25px 0;
@@ -875,11 +875,11 @@ section#map {
     background-repeat: no-repeat;
 }
 
-section#map .section-heading {
+section#map .section-heading, section#contact .section-heading {
     color: #{{ site.data.template.color.primary }};
 }
 
-section#map .text-muted {
+section#map .text-muted, section#contact .text-muted {
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -891,7 +891,7 @@ section h2.section-heading {
     /* opacity: 0.6; */
 }
 
-section#map .text-bg {
+section#map .text-bg, section#contact .text-bg {
     background-color: #{{ site.data.template.color.background }};
     display: inline-block;
     padding: 10px;
@@ -899,8 +899,25 @@ section#map .text-bg {
 	-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
     border-radius: 5px;
+    margin-bottom: 75px;
 }
 
-section#map .googlemaps {
-    margin-top: 75px;
+section#contact {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/contact-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#contact .address {
+    /* background-color: #FF0000; */
+}
+
+section#contact .opening-hours {
+    /* background-color: #0000FF; */
+}
+
+section#contact .contact-info {
+    margin: auto;
+    background-color: #00FF00;
 }
