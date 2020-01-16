@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.background }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.background }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -260,8 +260,10 @@ fieldset[disabled] .btn-xl.active {
         background-color: #{{ site.data.template.color.background }};
     }
 
+    /* definiowanie koloru rozwijanego navbara */
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: #{{ site.data.template.color.primary }};
     }
 }
 
