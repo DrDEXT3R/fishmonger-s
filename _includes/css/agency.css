@@ -866,3 +866,20 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* moje */
+
+section#map {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/map-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#map .section-heading {
+    color: #{{ site.data.template.color.primary }};
+}
+
+section#map .text-muted {
+    color: #{{ site.data.template.color.primary }};
+}
