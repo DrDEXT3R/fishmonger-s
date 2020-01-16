@@ -1,4 +1,4 @@
-title: Title
+title: Ryby Gliwice
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "DrDEXT3R.github.io/fishmonger-s"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -9,9 +9,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 email: your-email@example.com
 
 # Build settings
-# markdown: kramdown
-# theme: minima
-# plugins:
-#   - jekyll-feed
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-# permalink: pretty
+permalink: pretty
