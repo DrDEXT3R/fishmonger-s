@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.background }};
 }
 
 .text-muted {
@@ -257,8 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        /* było background-color: #222 */
-        background-color: #193441; 
+        background-color: #{{ site.data.template.color.background }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -329,11 +328,11 @@ section {
     padding: 100px 0;
 }
 
-section h2.section-heading {
+/* section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-}
+} */
 
 section h3.section-subheading {
     margin-bottom: 75px;
@@ -882,4 +881,22 @@ section#map .section-heading {
 
 section#map .text-muted {
     color: #{{ site.data.template.color.primary }};
+}
+
+section h2.section-heading {
+    margin: 0;
+    /* margin-bottom: 15px; */
+    font-size: 40px;
+    background-color: #{{ site.data.template.color.background }};
+    /* opacity: 0.6; */
+}
+
+section#map .text-bg {
+    background-color: #{{ site.data.template.color.background }};
+    display: inline-block;
+    padding: 10px;
+}
+
+section#map .googlemaps {
+    margin-top: 75px;
 }
