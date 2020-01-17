@@ -291,6 +291,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    color: #{{ site.data.template.color.background }};
 }
 
 header .intro-text .intro-heading {
@@ -933,4 +934,13 @@ section#contact .contact-info {
 	-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
     border-radius: 5px;
+}
+
+section#about img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+section#about .shop {
+    padding: 0;
 }
