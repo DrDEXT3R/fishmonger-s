@@ -55,6 +55,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+    color: #{{ site.data.template.color.background }};
 }
 
 .img-centered {
@@ -930,7 +931,7 @@ section#map {
 }
 
 section#map .text-muted, section#contact .text-muted, section#about .text-muted {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.background }};
 }
 
 section h2.section-heading {

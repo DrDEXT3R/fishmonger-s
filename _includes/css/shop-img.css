@@ -2,7 +2,13 @@ section#about .shop .img {
     content: url('{{ site.baseurl }}/img/shop.jpg');
     max-width: 100%;
     max-height: 100%;
+
+     margin: 25px 10px;
+
+    background: #141414;
+    box-shadow: 0 0 15px 10px #141414;
 }
+
 
 /* z pliku */
 .image-shadow:after {
