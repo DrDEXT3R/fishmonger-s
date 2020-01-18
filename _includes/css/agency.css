@@ -357,7 +357,7 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .portfolio-item {
+/* #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
@@ -377,7 +377,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(254,209,54,.9); 
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
@@ -427,8 +427,8 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
-}
-
+} */
+/* 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -653,7 +653,7 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
-}
+} */
 
 aside.clients img {
     margin: 50px auto;
@@ -878,11 +878,7 @@ section#map {
     background-repeat: no-repeat;
 }
 
-section#map .section-heading, section#contact .section-heading {
-    color: #{{ site.data.template.color.primary }};
-}
-
-section#map .text-muted, section#contact .text-muted {
+section#map .text-muted, section#contact .text-muted, section#about .text-muted {
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -892,9 +888,10 @@ section h2.section-heading {
     font-size: 40px;
     background-color: #{{ site.data.template.color.background }};
     /* opacity: 0.6; */
+    color: #{{ site.data.template.color.primary }};
 }
 
-section#map .text-bg, section#contact .text-bg {
+section#map .text-bg, section#contact .text-bg, section#about .text-bg {
     background-color: #{{ site.data.template.color.background }};
     display: inline-block;
     padding: 10px;
