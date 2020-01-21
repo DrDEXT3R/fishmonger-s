@@ -992,6 +992,7 @@ section#about img {
 
 section#about .shop {
     padding: 0;
+    align-self: center;
 }
 
 section#contact .text-muted, section#contact table  {
@@ -1016,10 +1017,13 @@ section#about {
 
 section#about .about-text {
     align-self: center;
+    height: 100%;
 }
 
-section#about .test {  
-    display: flex; 
+@media(min-width:768px) {
+    section#about .test {  
+        display: flex; 
+    }
 }
 
 section#about .text-muted {
