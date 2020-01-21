@@ -8,6 +8,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 email: your-email@example.com
 
+author: "Tomasz Strzoda"
+
 # Build settings
 markdown: kramdown
 theme: minima
