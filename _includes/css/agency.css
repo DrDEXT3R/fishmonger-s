@@ -1029,3 +1029,11 @@ section#about .about-text {
 section#about .text-muted {
     font-size: 19px;
 }
+
+@media(min-width:1200px) {
+    section#about .text-muted {
+        /* color: #FF0000; */
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
