@@ -1,4 +1,7 @@
 {% include css/bootstrap.min.css %}
-{% include css/agency.css %}
-{% include css/shop-img.css %}
+{% include css/site.css %}
+{% include css/all-sections.css %}
+{% include css/about.css %}
+{% include css/contact.css %}
+{% include css/map.css %}
 {{ content }}
