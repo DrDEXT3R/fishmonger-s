@@ -1,6 +1,6 @@
 section#contact {
     background-color: #f2f2f2;
-    background-image: url('{{ site.baseurl }}/img/contact.jpg');
+    background-image: url('{{ site.baseurl }}/img/contact.png');
     background-position: center;
     background-repeat: no-repeat;
 }

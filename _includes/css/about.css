@@ -1,6 +1,6 @@
 section#about {
     background-color: #f2f2f2;
-    background-image: url('{{ site.baseurl }}/img/about.jpg');
+    background-image: url('{{ site.baseurl }}/img/about.png');
     background-position: center;
     background-repeat: no-repeat;
 }
